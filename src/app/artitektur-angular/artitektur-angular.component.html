@@ -1,0 +1,37 @@
+<h2>Artitektur av Angular</h2>
+
+<p>Det finns åtta grunder för Angulars artitektur.</p>
+
+<h4>Modules</h4>
+<p>en angular app behöver en (root module) som kan exportera funktioner, värden och klasser från själva koden</p>
+
+<h4>Components</h4>
+<p>genom komponenter kan vi skapa olika delar som sitter i en modul. Man väljer vilka komponenter man ska ha och fördelar dem, det kan vara en komponent för header, navbar osv.</p>
+
+<h4>Templates</h4>
+<p>I angular finns mallar som efterliknar en HTML fil i, förutom att den istället innehåller angular syntax. Mallen kan till exempel använda databinding för att manipulera DOM datan vad man vill eller hur datan ska visas upp i applikationen.
+</p>
+
+<h4>Metadata</h4>
+<p>Med metadata kan man dekorera en klass för att den ska kunna konfigurera just den klassens föväntade beteende. Det finns olika dekorerare, men den man alltid använder är @Component.</p>
+
+<h4>Directives</h4>
+<p>Directives är HTML attribut som är anpassade och har syftet att tala om för angular stylingen och beteendet för DOM elementen. Det är faktiskt directives främst som är bygstenarna i angular och komponenter är en del av detta. Det finns tre olika typer av directives; components, structural directives och attribute directives. </p>
+
+<h4>Services</h4>
+<p>Man kan säga att services i Angular är en stor mängd objekt som utförs en gång i applikationens livstid. De innehåller metoder för att underhålla data under hela applikationens livscykel, alltså data uppdateras inte och är alltid tillgäng även vid inget internet. </p>
+
+<h4>Dependency injections</h4>
+<p>Denna funktionen är byggd in i angular som gör det möjligt för klasser att kunna bli beroende av externa källor, detta kan vara nödvändigt ibland om man behöver en http tjänst för att göra en backend anrop.</p>
+
+<h4>Data Binding</h4>
+<p>Man kan synkronisera data mellan modulen och komponenterna som syns i applikatioen, detta göra på automatik. Men det finns lite olika databindings typer.</p>
+<ul>
+    <li>Interpolation</li>
+    <li>Property binding</li>
+    <li>Class binding</li>
+    <li>Style binding</li>
+    <li>Attribute binding</li>
+    <li>Event binding</li>
+    <li>Two-way binding</li>
+</ul>
