@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width: 60rem;
+  margin-top: 5rem;
+}
+
+.my-container1 {
+  width: 30rem;
+}
+
+.my-container {
+  flex-direction: row;
+}
+
